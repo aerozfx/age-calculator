@@ -1,0 +1,16 @@
+:root {
+    --primary-color: hsl(259, 100%, 65%);
+    --secondary-gray: hsl(0, 0%, 86%);
+    --light-gray: hsl(0, 0%, 86%);
+    --darker-gray: hsl(0, 1%, 44%);
+    --light-red: hsl(0, 100%, 67%);
+
+}
+
+.error-text {
+    color: var(--light-red) !important;
+}
+
+.error-input {
+    border: 1px solid var(--light-red) !important;
+}
